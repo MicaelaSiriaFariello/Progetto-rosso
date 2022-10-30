@@ -1,0 +1,225 @@
+/* variabili */
+:root{
+    --main-color: darkred;
+    --sec-color:  #C67F7F;
+    --third-color: #ececec;
+}
+
+*{
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+/* navbar */
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: end;
+}
+
+
+.bg_white{
+    background-color: white;
+}
+
+.txt_red{
+    Color: var(--main-color);
+    font-size: 100px;
+}
+.txt_red2{
+    Color: var(--main-color);
+    font-size: 100px;
+    font-family: 'Nova Square', cursive;
+}
+
+/* spacing lorem h1 */
+.spacing_{
+    letter-spacing: 3rem;
+}
+
+.icon-color{
+color: darkred;
+}
+
+.txt-color{
+    color: black;
+}
+
+/* header */
+.bg_banner{
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.815) 50%, #c67f7f5d ),
+    url('./switzerland-862870_1920.jpg');
+}
+.bg_grey{
+    background-color: var(--third-color);
+}
+.img_mount{
+    position: absolute;
+    height: 80%;
+    bottom: 0rem;
+    right: 14rem;
+}
+
+.txt_grey{
+    color: grey;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--main-color);
+    --bs-btn-border-color: var(--main-color);
+    --bs-btn-hover-bg: var(--main-color);
+    --bs-btn-hover-border-color: var(--main-color);
+    --bs-btn-active-bg: var(--main-color);
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-disabled-bg: var(--main-color);
+    --bs-btn-disabled-border-color: var(--main-color);
+}
+
+.box{
+    height: 30vh;
+}
+
+.box2{
+    height: 30vh;
+}
+
+.img_body{
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    overflow: hidden;
+}
+
+
+
+.border_red{
+    border-left: var(--main-color) 3px solid;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+
+.bar{
+    size: 100px;
+}
+    
+
+.btn-light{
+    position: relative;
+    border: solid darkred 3px;
+    background: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    bottom: 32px;
+    
+
+}
+
+.btn-personalizzato{
+    height: 30px;
+    width: 30px;
+    right: 17px;
+    top: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid darkred;
+
+
+}
+
+/* .img_single{
+    position: absolute;
+    bottom: 0rem;
+    left: 70rem;
+    overflow-x: hidden;
+} */
+
+.hr_red{
+    width: 50%;
+    opacity: 1;
+    border: var(--main-color) 1px solid;
+}
+
+.imgTeam{
+    border-radius: 50%;
+    border: var(--main-color) 2px solid;
+}
+
+
+
+
+.box3{
+    height: 40vh;
+
+}
+
+
+.bg_footer{
+    background-color: var(--main-color);
+}
+
+.txt_light{
+    color: white;
+}
+#navbarSupportedContent .navbar-brand{
+    border-bottom: transparent 2px solid;
+    transition: all 0.3;
+
+}
+
+#navbarSupportedContent .navbar-brand:hover{
+    border-bottom: var(--main-color) 2px solid;
+}
+
+.hrbottom{
+
+    width: 100%;
+    border-top: darkred 4px solid;
+    opacity: 1;
+}
+
+.buttonline{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.fa-solid{
+    font-size: 3rem;
+}
+
+
+.navButtonRed{
+    color: var(--main-color);
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #navbarSupportedContent .navbar-brand:hover{
+        border-bottom: transparent 2px solid;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 760px)
+{
+    .spacing_{
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width) {
+    
+}
+
+
+
